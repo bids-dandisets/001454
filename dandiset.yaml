@@ -14,9 +14,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Keyes, Laurel; Tye, Kay M; Patel, Reesha R (2025) Social isolation recruits
-  amygdala-cortical circuitry to escalate alcohol drinking (Version draft) [Data set].
-  DANDI Archive. https://dandiarchive.org/dandiset/001454/draft
+citation: 'Keyes, Laurel; Tye, Kay M; Patel, Reesha R (2025) Social isolation recruits
+  amygdala-cortical circuitry to escalate alcohol drinking Part 1: in vivo calcium
+  and behavior data (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001454/draft'
 contributor:
 - affiliation: []
   email: laurelrr@gmail.com
@@ -89,11 +89,11 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-05-19T17:55:45.753450+00:00'
-description: 'This dandiset contains the data used in the manuscript: Patel RR, Patarino
-  M, Kim K, Pamintuan R, Taschbach FH, Li H, Lee CR, van Hoek A, Castro R, Cazares
-  C, Miranda RL, Jia C, Delahanty J, Batra K, Keyes LR, Libster A, Wichmann R, Pereira
-  TD, Benna MK, Tye KM. "Social isolation recruits amygdala-cortical circuitry to
-  escalate alcohol drinking." bioRxiv: 2023 Nov 10 doi: https://doi.org/10.1101/2023.11.09.566421.  It
+description: 'This dandiset contains the in vivo data used in the manuscript: Patel
+  RR, Patarino M, Kim K, Pamintuan R, Taschbach FH, Li H, Lee CR, van Hoek A, Castro
+  R, Cazares C, Miranda RL, Jia C, Delahanty J, Batra K, Keyes LR, Libster A, Wichmann
+  R, Pereira TD, Benna MK, Tye KM. "Social isolation recruits amygdala-cortical circuitry
+  to escalate alcohol drinking." bioRxiv: 2023 Nov 10 doi: https://doi.org/10.1101/2023.11.09.566421.  It
   includes in vivo calcium imaging of the basolateral amygdala-medial prefrontal cortex
   circuit in mice during two different behavioral paradigms.  The dandiset includes
   calcium recordings, behavioral videos with pose tracking, and histological images.'
@@ -120,7 +120,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001454/versions/draft/assets/
-name: Social isolation recruits amygdala-cortical circuitry to escalate alcohol drinking
+name: 'Social isolation recruits amygdala-cortical circuitry to escalate alcohol drinking
+  Part 1: in vivo calcium and behavior data'
 relatedResource:
 - name: Social isolation recruits amygdala-cortical circuitry to escalate alcohol
     drinking
