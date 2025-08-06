@@ -11,9 +11,39 @@ acknowledgement: We would like to acknowledge the Scripps Research Animal Models
   for their measurements of blood alcohol content. This article is subject to HHMI’s
   Open Access to Publications policy.
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: one-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 98916697091
+  numberOfFiles: 149
+  numberOfSubjects: 35
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - OnePhotonSeries
+  - PlaneSegmentation
+  - BehavioralEvents
+  - ProcessingModule
+  - ImagingPlane
+  - OpticalChannel
 citation: 'Keyes, Laurel R; Tye, Kay M; Patel, Reesha R; Patarino, Makenzie; Kim,
   Kelly; Paminuan, Rachelle; Taschbach, Felix H.; Li, Hao; Lee, Christopher R.; van
   Hoek, Aniek; Cazares, Christian; Miranda, Raymundo L.; Jia, Caroline; Delahanty,
@@ -148,7 +178,8 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0002-8077-4852
+  includeInCitation: true
   name: Jia, Caroline
   roleName:
   - dcite:Author
